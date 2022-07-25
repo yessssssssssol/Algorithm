@@ -19,3 +19,5 @@ let time3 = performance.now();
 add2(1000000000);
 let time4 = performance.now();
 console.log(`Time Elapse2: ${(time4 - time3) / 1000} seconds.`);
+
+// 단순하게 코드 작동 시간만 비교하는 것은 좋지 못한 방법임

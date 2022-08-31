@@ -36,5 +36,6 @@ const cellphone = '010-1234-5678'
 
 // 특수 문자 포함 여부 검사 [...]의 내부의 ^은 not을 의미
 const emoji = 'abcd#123'
-(/[^A-Za-z0-9]/gi).test(emoji);
-
+(/[^A-Za-z0-9]/gi).test(emoji); //true
+// 특수 문자를 제거
+target.replace(/[^A-Za-z0-9]/gi,'') //abcd123

@@ -30,4 +30,4 @@ function charCount2(str) {
   return obj;
 }
 
-console.log(charCount2('Hello hi!'));
+console.log(charCount2('Hello hi!')); //{ h: 2, e: 1, l: 2, o: 1, i: 1 }

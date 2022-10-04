@@ -1,4 +1,4 @@
-# JS_algorithm
+# Algorithm
 
 python과 JS
 

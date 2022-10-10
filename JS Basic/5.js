@@ -1,12 +1,12 @@
 function solution(arr) {
   let answer,
-    min = Number.MAX_SAFE_INTEGER;
-  for (let i = 1; i < arr.length; i++) {
-    console.log(i);
+    min = 987654321;
+  for (let i = 1; i <= arr.length; i++) {
     if (arr[i] < min) min = arr[i];
+    answer = min;
   }
-  answer = min;
   return answer;
 }
-let arr = [5, 7, 8, 3, 2, 9, 11];
+
+arr = [5, 3, 7, 11, 9, 15, 17];
 console.log(solution(arr));

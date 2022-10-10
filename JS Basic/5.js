@@ -1,3 +1,5 @@
+// 최솟값 구하기
+
 function solution(arr) {
   let answer,
     min = 987654321;

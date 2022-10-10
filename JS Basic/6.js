@@ -1,3 +1,5 @@
+// 홀수
+
 function solution(arr) {
   let answer;
 

@@ -1,6 +1,6 @@
 # Algorithm
 
-python과 JS으로 알고리즘 문제 풀기
+JS으로 알고리즘 문제 풀기
 
 ### TIP
 
